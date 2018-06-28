@@ -4,6 +4,7 @@
   "description": "React webpack starter template",
   "main": "lib/index.js",
   "dependencies": {
+    "auto-bind": "^1.2.1",
     "bootstrap": "^4.1.1",
     "css-loader": "^0.28.11",
     "style-loader": "^0.21.0"
