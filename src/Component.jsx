@@ -15,7 +15,6 @@ var Component = React.createClass({
       <div className="container">
         <div className="jumbotron">Simpli Kids</div>
         <HomePage />
-        {/* <PopUp /> */}
       </div>
     );
   },
