@@ -8,7 +8,9 @@ var Component = React.createClass({
     }
     return (
       <div className="container">
-        <div className="jumbotron">Simpli Kids</div>
+        <div className="jumbotron">
+          <p>Simpli Kidsasdsdfs</p>
+        </div>
         <PopUp />
       </div>
     );
