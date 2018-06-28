@@ -1,10 +1,16 @@
 import React from 'react';
-import HomePage from './pages/HomePage.js'
+import HomePage from './pages/HomePage.js';
 import PopUp from "./PopUp";
+import Menu from './Menu.jsx';
 
 var Component = React.createClass({
   getInitialState: function() {
-    return {message: 'Hello!'};
+    return {
+      message: 'Hello!',
+      creditScore:0,
+      level:0,
+      savings:0
+    };
   },
 
   render: function () {
@@ -13,8 +19,11 @@ var Component = React.createClass({
     }
     return (
       <div className="container">
+      <Menu level={this.state.level} creditScore={this.state.creditScore} savings={this.state.savings} />
         <div className="jumbotron">Simpli Kids</div>
         <HomePage />
+        {/*<PopUp />*/}
+        
       </div>
     );
   },
