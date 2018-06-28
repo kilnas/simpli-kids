@@ -1,6 +1,11 @@
 import React from 'react';
+import HomePage from './pages/HomePage.js'
 
 var Component = React.createClass({
+  getInitialState: function() {
+    return {message: 'Hello!'};
+  },
+
   render: function () {
     if (this.props.onRender) {
       this.props.onRender();
@@ -8,6 +13,7 @@ var Component = React.createClass({
     return (
       <div className="container">
         <div className="jumbotron">Simpli Kids</div>
+        <HomePage />
       </div>
     );
   },
