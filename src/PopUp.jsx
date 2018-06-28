@@ -1,14 +1,12 @@
 import React from 'react';
+import styles from './PopUp.css'
 
 export default class PopUp extends React.Component {
     render() {
         return (
-            <div>
-                <h1>Hello, {this.props.name}</h1>
-                <div>
-                    
-                </div>
-            </div>
+            <span className="popUp">
+                Hello there!
+            </span>     
         );
     }
 }

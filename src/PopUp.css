@@ -1,0 +1,12 @@
+.popUp {
+    position: fixed; /* Sit on top of the page content */
+    width: 25%; /* Full width (cover the whole page) */
+    height: 25%; /* Full height (cover the whole page) */
+    top: 25%; 
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+    color: white;
+    text-align: center;
+    background-color: rgba(0,0,0,0.75); /* Black background with opacity */
+}
