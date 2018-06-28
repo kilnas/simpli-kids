@@ -1,4 +1,5 @@
 import React from 'react';
+import PopUp from "./PopUp";
 
 var Component = React.createClass({
   render: function () {
@@ -8,6 +9,7 @@ var Component = React.createClass({
     return (
       <div className="container">
         <div className="jumbotron">Simpli Kids</div>
+        <PopUp />
       </div>
     );
   },
